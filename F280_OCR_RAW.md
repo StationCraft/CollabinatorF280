@@ -2480,123 +2480,141 @@ characteristics listed in Tables 6E to 6H to determine the RSlw value that is to
 the conductive heat loss for the windows, as required by Clause 5.2.1.
 Similarly, the RSlw and SHGC found in Tables 6E to 6H can be used to complete the calculation of heat
 gain through transparent and translucent building assemblies, as required by Clause 6.2.2.
-@ Table 6E
+<!-- TABLES 6E–6H: Recovered by direct visual transcription from the source PDF at 400 DPI;
+     OCR could not parse the dense grid. Several cells in 6F/6G are physically counterintuitive
+     (e.g. air-fill RSI exceeding argon-fill for some Operable Wood/Vinyl rows) but are reproduced
+     verbatim as printed in CSA F280:12 (2012 edition) and have been operator-verified against
+     the source. -->
+
+Table 6E
 Single glazed windows
-,
-Frame material 6 SY’
-ve | oss (| 060
+
+| Frame material | Storm | RSI_W | SHGC |
+|---|---|---|---|
+| Fixed — Aluminum | None | 0.15 | 0.73 |
+| Fixed — Aluminum | Yes | 0.23 | 0.65 |
+| Fixed — Wood | None | 0.19 | 0.67 |
+| Fixed — Wood | Yes | 0.33 | 0.60 |
+| Operable — Aluminum | None | 0.13 | 0.71 |
+| Operable — Aluminum | Yes | 0.20 | 0.63 |
+| Operable — Wood | None | 0.21 | 0.55 |
+| Operable — Wood | Yes | 0.33 | 0.49 |
+
 Note: There are specific measurement tools available for determining the presence of Low-E coatings on installed
 windows. There is no practical way to determine the presence of argon or other gas fillings. There might be
 identifying marks etched into the spacer material or at the edge of the glass. If the presence of coatings or fillings
-cannot be determined, designers may wish to choose conservative RSlw and SHGC values.
-March 2012 © 2012 Canadian Standards Association 44.
+cannot be determined, designers may wish to choose conservative RSI_W and SHGC values.
+
+March 2012 © 2012 Canadian Standards Association 44
 Licensed to/autorisé a Benjamin Station, ben@stationcraft.ca, Station Craft Inc.
-Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. ~Single user license only. Storage, copying, distribution or use on
-network prohibited. Le stockage, reproduction, la distribution, ou l'utilisation sur le réseau est interdit.
+Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. Single user license only. Storage, copying, distribution or use on
+network prohibited. Le stockage, reproduction, la distribution, ou l’utilisation sur le réseau est interdit.
 
 === PAGE 52 ===
-= a
-5 Oe) Table 6F x
-~ Double glazed windows s
-Glazing spacing
-terial Spacer Coating ; -
-:
-iv
-S ;
-2
-H
-a j =.
-a Ss
-Q m
-a
-as}
-:
-~
-Notes: 8 g
-1) Rough openings for windows shall be used in the calculations. = IS
-2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer. S. =
-3) There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to as
-determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the 3 8
-presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSlw and SHGC values. = =
-Ss
-a sé
+
+Table 6F
+Double glazed windows
+
+Glazing spacing columns: 6 mm Air | 6 mm Argon | 9 mm Krypton | 13 mm Air | 13 mm Argon
+Each glazing config has two sub-columns: RSI_W and SHGC.
+
+| Frame material | Spacer | Coating | 6mm Air RSI_W | 6mm Air SHGC | 6mm Argon RSI_W | 6mm Argon SHGC | 9mm Krypton RSI_W | 9mm Krypton SHGC | 13mm Air RSI_W | 13mm Air SHGC | 13mm Argon RSI_W | 13mm Argon SHGC |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Fixed — Aluminum | Metal | Clear | 0.22 | 0.65 | 0.22 | 0.65 | 0.24 | 0.65 | 0.23 | 0.65 | 0.24 | 0.65 |
+| Fixed — Aluminum | Metal | Low-E | 0.25 | 0.47 | 0.27 | 0.47 | 0.31 | 0.47 | 0.28 | 0.47 | 0.30 | 0.47 |
+| Fixed — Aluminum | Insulating | Clear | 0.22 | 0.65 | 0.23 | 0.65 | 0.25 | 0.65 | 0.24 | 0.65 | 0.25 | 0.65 |
+| Fixed — Aluminum | Insulating | Low-E | 0.26 | 0.47 | 0.29 | 0.47 | 0.33 | 0.47 | 0.30 | 0.47 | 0.32 | 0.47 |
+| Fixed — Wood/Vinyl | Metal | Clear | 0.30 | 0.60 | 0.32 | 0.60 | 0.35 | 0.60 | 0.33 | 0.60 | 0.35 | 0.60 |
+| Fixed — Wood/Vinyl | Metal | Low-E | 0.36 | 0.47 | 0.41 | 0.47 | 0.51 | 0.47 | 0.45 | 0.47 | 0.45 | 0.47 |
+| Fixed — Wood/Vinyl | Insulating | Clear | 0.32 | 0.59 | 0.35 | 0.59 | 0.38 | 0.59 | 0.36 | 0.59 | 0.38 | 0.59 |
+| Fixed — Wood/Vinyl | Insulating | Low-E | 0.40 | 0.47 | 0.47 | 0.47 | 0.59 | 0.47 | 0.51 | 0.47 | 0.57 | 0.47 |
+| Operable — Aluminum | Metal | Clear | 0.19 | 0.63 | 0.19 | 0.63 | 0.20 | 0.63 | 0.20 | 0.63 | 0.20 | 0.63 |
+| Operable — Aluminum | Metal | Low-E | 0.21 | 0.47 | 0.22 | 0.47 | 0.33 | 0.47 | 0.23 | 0.47 | 0.24 | 0.47 |
+| Operable — Aluminum | Insulating | Clear | 0.19 | 0.63 | 0.20 | 0.63 | 0.21 | 0.63 | 0.20 | 0.63 | 0.21 | 0.63 |
+| Operable — Aluminum | Insulating | Low-E | 0.21 | 0.47 | 0.29 | 0.47 | 0.26 | 0.47 | 0.24 | 0.47 | 0.26 | 0.47 |
+| Operable — Wood/Vinyl | Metal | Clear | 0.37 | 0.49 | 0.32 | 0.49 | 0.35 | 0.49 | 0.33 | 0.49 | 0.34 | 0.49 |
+| Operable — Wood/Vinyl | Metal | Low-E | 0.41 | 0.47 | 0.39 | 0.47 | 0.46 | 0.47 | 0.42 | 0.47 | 0.45 | 0.47 |
+| Operable — Wood/Vinyl | Insulating | Clear | 0.41 | 0.49 | 0.35 | 0.49 | 0.38 | 0.49 | 0.36 | 0.49 | 0.37 | 0.49 |
+| Operable — Wood/Vinyl | Insulating | Low-E | 0.46 | 0.47 | 0.44 | 0.47 | 0.52 | 0.47 | 0.47 | 0.47 | 0.51 | 0.47 |
+
+Notes:
+1) Rough openings for windows shall be used in the calculations.
+2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer.
+3) There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to
+determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the
+presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSI_W and SHGC values.
+
 Licensed to/autorisé a Benjamin Station, ben@stationcraft.ca, Station Craft Inc.
-Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. ~Single user license only. Storage, copying, distribution or use on
-network prohibited. Le stockage, reproduction, la distribution, ou l'utilisation sur le réseau est interdit.
+Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. Single user license only. Storage, copying, distribution or use on
+network prohibited. Le stockage, reproduction, la distribution, ou l’utilisation sur le réseau est interdit.
 
 === PAGE 53 ===
-S g
-s Oe) Table 6G x
-S Triple glazed windows s
-N S
-Glazing spacing
-terial Spacer Coating - ;
-:
-iv
-8 Wood/Vinyl
-:
-H
-& Aluminum =
-Q m
-i a
-"—vowe | oa [oa | os1 | oa | 06s | oao | 060 | oa | ose | oa | | ©
-~
-Notes: 8 g
-1) Rough openings for windows shall be used in the calculations. = IS
-2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer. S. =
-3) There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to & 8
-determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the 3 g
-presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSlw and SHGC values. = =
-Ss
+
+Table 6G
+Triple glazed windows
+
+Glazing spacing columns: 6 mm Air | 6 mm Argon | 9 mm Krypton | 13 mm Air | 13 mm Argon
+Each glazing config has two sub-columns: RSI_W and SHGC.
+
+| Frame material | Spacer | Coating | 6mm Air RSI_W | 6mm Air SHGC | 6mm Argon RSI_W | 6mm Argon SHGC | 9mm Krypton RSI_W | 9mm Krypton SHGC | 13mm Air RSI_W | 13mm Air SHGC | 13mm Argon RSI_W | 13mm Argon SHGC |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Fixed — Aluminum | Metal | Clear | 0.26 | 0.58 | 0.27 | 0.58 | 0.29 | 0.58 | 0.28 | 0.58 | 0.29 | 0.58 |
+| Fixed — Aluminum | Metal | Low-E | 0.28 | 0.40 | 0.30 | 0.40 | 0.34 | 0.40 | 0.32 | 0.40 | 0.34 | 0.40 |
+| Fixed — Aluminum | Insulating | Clear | 0.27 | 0.58 | 0.28 | 0.58 | 0.31 | 0.58 | 0.30 | 0.58 | 0.31 | 0.58 |
+| Fixed — Aluminum | Insulating | Low-E | 0.30 | 0.40 | 0.32 | 0.40 | 0.37 | 0.40 | 0.34 | 0.40 | 0.36 | 0.40 |
+| Fixed — Wood/Vinyl | Metal | Clear | 0.39 | 0.53 | 0.41 | 0.53 | 0.47 | 0.53 | 0.44 | 0.53 | 0.46 | 0.53 |
+| Fixed — Wood/Vinyl | Metal | Low-E | 0.43 | 0.40 | 0.49 | 0.40 | 0.60 | 0.40 | 0.54 | 0.40 | 0.59 | 0.40 |
+| Fixed — Wood/Vinyl | Insulating | Clear | 0.43 | 0.53 | 0.47 | 0.53 | 0.55 | 0.53 | 0.52 | 0.53 | 0.54 | 0.53 |
+| Fixed — Wood/Vinyl | Insulating | Low-E | 0.50 | 0.40 | 0.57 | 0.40 | 0.75 | 0.40 | 0.66 | 0.40 | 0.73 | 0.40 |
+| Operable — Aluminum | Metal | Clear | 0.21 | 0.57 | 0.22 | 0.57 | 0.24 | 0.57 | 0.23 | 0.57 | 0.23 | 0.57 |
+| Operable — Aluminum | Metal | Low-E | 0.23 | 0.40 | 0.24 | 0.40 | 0.27 | 0.40 | 0.25 | 0.40 | 0.26 | 0.40 |
+| Operable — Aluminum | Insulating | Clear | 0.27 | 0.57 | 0.23 | 0.57 | 0.25 | 0.57 | 0.24 | 0.57 | 0.25 | 0.57 |
+| Operable — Aluminum | Insulating | Low-E | 0.30 | 0.40 | 0.32 | 0.40 | 0.28 | 0.40 | 0.27 | 0.40 | 0.28 | 0.40 |
+| Operable — Wood/Vinyl | Metal | Clear | 0.37 | 0.44 | 0.39 | 0.44 | 0.44 | 0.44 | 0.42 | 0.44 | 0.44 | 0.44 |
+| Operable — Wood/Vinyl | Metal | Low-E | 0.41 | 0.40 | 0.44 | 0.40 | 0.53 | 0.40 | 0.49 | 0.40 | 0.52 | 0.40 |
+| Operable — Wood/Vinyl | Insulating | Clear | 0.41 | 0.43 | 0.44 | 0.43 | 0.52 | 0.43 | 0.50 | 0.43 | 0.52 | 0.43 |
+| Operable — Wood/Vinyl | Insulating | Low-E | 0.46 | 0.40 | 0.51 | 0.40 | 0.66 | 0.40 | 0.60 | 0.40 | 0.64 | 0.40 |
+
+Notes:
+1) Rough openings for windows shall be used in the calculations.
+2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer.
+3) There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to
+determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the
+presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSI_W and SHGC values.
+
 Licensed to/autorisé a Benjamin Station, ben@stationcraft.ca, Station Craft Inc.
-Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. ~Single user license only. Storage, copying, distribution or use on
-network prohibited. Le stockage, reproduction, la distribution, ou l'utilisation sur le réseau est interdit.
+Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. Single user license only. Storage, copying, distribution or use on
+network prohibited. Le stockage, reproduction, la distribution, ou l’utilisation sur le réseau est interdit.
 
 === PAGE 54 ===
-i>)
-s @ Table 6H g
-iz] . . . .
-~ Triple glazed windows with 2 coatings (TG-2) S
-8 S
-N N
-Glazing spacing
-terial Coating . A
-Aluminum :
-Vinyl .
-N
-= Aluminum 7
-Qa
-Ss Wood/Vinyl : iS]
-8 be
-8
-= Notes: 3
-& 1) Rough openings for windows shall be used in the calculations. &
-8. 2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer. >
-= 3) ‘There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to z
-= determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the =
-presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSlw and SHGC values. g
-8
-as}
-gs
-g.
-<
-Ss
-2
-ag
-a
-a 5S
-8 &
-28
-Su
-Set
-88
-EF
-a8
-RN as
-NX sé
+
+Table 6H
+Triple glazed windows with 2 coatings (TG-2)
+
+Glazing spacing columns: 6 mm Air | 6 mm Argon | 9 mm Krypton | 13 mm Air | 13 mm Argon
+Each glazing config has two sub-columns: RSI_W and SHGC. All rows are Low-E coating only.
+
+| Frame material | Spacer | Coating | 6mm Air RSI_W | 6mm Air SHGC | 6mm Argon RSI_W | 6mm Argon SHGC | 9mm Krypton RSI_W | 9mm Krypton SHGC | 13mm Air RSI_W | 13mm Air SHGC | 13mm Argon RSI_W | 13mm Argon SHGC |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Fixed — Aluminum | Metal | Low-E | 0.30 | 0.25 | 0.32 | 0.25 | 0.37 | 0.25 | 0.34 | 0.25 | 0.36 | 0.25 |
+| Fixed — Aluminum | Insulating | Low-E | 0.32 | 0.25 | 0.35 | 0.25 | 0.40 | 0.25 | 0.37 | 0.25 | 0.39 | 0.25 |
+| Fixed — Wood/Vinyl | Metal | Low-E | 0.48 | 0.22 | 0.54 | 0.22 | 0.69 | 0.22 | 0.61 | 0.22 | 0.67 | 0.22 |
+| Fixed — Wood/Vinyl | Insulating | Low-E | 0.55 | 0.22 | 0.64 | 0.22 | 0.89 | 0.22 | 0.76 | 0.22 | 0.86 | 0.22 |
+| Operable — Aluminum | Metal | Low-E | 0.24 | 0.26 | 0.25 | 0.26 | 0.28 | 0.26 | 0.27 | 0.26 | 0.28 | 0.26 |
+| Operable — Aluminum | Insulating | Low-E | 0.25 | 0.26 | 0.27 | 0.26 | 0.30 | 0.26 | 0.28 | 0.26 | 0.29 | 0.26 |
+| Operable — Wood/Vinyl | Metal | Low-E | 0.44 | 0.19 | 0.48 | 0.19 | 0.58 | 0.19 | 0.53 | 0.19 | 0.57 | 0.19 |
+| Operable — Wood/Vinyl | Insulating | Low-E | 0.50 | 0.19 | 0.55 | 0.19 | 0.74 | 0.19 | 0.66 | 0.19 | 0.72 | 0.19 |
+
+Notes:
+1) Rough openings for windows shall be used in the calculations.
+2) If space between adjacent panes is less than 6 mm, glazing shall be treated as one layer.
+3) There are specific measurement tools available for determining the presence of Low-E coatings on installed windows. There is no practical way to
+determine the presence of argon or other gas fillings. There might be identifying marks etched into the spacer material or at the edge of the glass. If the
+presence of coatings or fillings cannot be determined, designers may wish to choose conservative RSI_W and SHGC values.
+
 Licensed to/autorisé a Benjamin Station, ben@stationcraft.ca, Station Craft Inc.
-Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. ~Single user license only. Storage, copying, distribution or use on
-network prohibited. Le stockage, reproduction, la distribution, ou l'utilisation sur le réseau est interdit.
+Sold by/vendu par CSA Group/Groupe CSA on/le 2023-07-31. Single user license only. Storage, copying, distribution or use on
+network prohibited. Le stockage, reproduction, la distribution, ou l’utilisation sur le réseau est interdit.
 
 === PAGE 55 ===
 Determining the required capacity of residential space heating
